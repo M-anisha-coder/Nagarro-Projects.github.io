@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+
+body{
+    background-image:linear-gradient(to right,#0052D4,#65C7F7,#0052D4)
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Arima', cursive;
+    
+    
+}
+.one, .two, .three{
+    text-align: center;
+    
+}
+.three,.two{
+    margin-top: 20px;
+}
+textarea{
+    background-color: #E8F9FD;
+    border: 5px solid aquamarine;
+}
+#btn{
+    padding: 5px;
+    background-color: #3EC70B;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    border: 2px solid white;
+    font-family: 'Arima', cursive;
+}
