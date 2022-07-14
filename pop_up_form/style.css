@@ -1,0 +1,23 @@
+#box{
+    background-color: #5614B0;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+    border-radius: 5px;
+}
+body{
+    background-image: linear-gradient(to right,#000428,#004e92);
+}
+#box.show{
+    visibility:visible ;
+}
+.clicks{
+    font-weight: bold;
+}
+.enter{
+    color: rgb(5, 225, 5)
+    
+}
+label{
+    color: snow;
+}
