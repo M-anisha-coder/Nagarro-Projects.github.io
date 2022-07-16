@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
-
-body{
-    background-image:linear-gradient(to right,#0052D4,#65C7F7,#0052D4)
+*{
+padding: 0%;
+margin: 0%;
+outline: none;
 }
-
+body{
+    background-image:linear-gradient(to right,#4776e6,#8e54e9)
+  
+}
+.container{
+    margin-top: 20px;
+}
 
 h1{
     text-align: center;
-    color: blue;
-    font-family: 'Arima', cursive;
-    
-    
+    color:whitesmoke;  
 }
 .one, .two, .three{
     text-align: center;
@@ -20,16 +23,27 @@ h1{
     margin-top: 20px;
 }
 textarea{
-    background-color: #E8F9FD;
-    border: 5px solid aquamarine;
+    
+    background-color: #DFF6FF;
+    border: 5px solid #1363DF;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
 }
 #btn{
-    padding: 5px;
-    background-color: #3EC70B;
+    padding: 10px;
+    background-color: rgb(53, 235, 29);
     outline: none;
     color: white;
+    font-weight: bold;
     border-radius: 10px;
     font-size: large;
     border: 2px solid white;
-    font-family: 'Arima', cursive;
+   
 }
+#btn:hover{
+    color:rgb(53, 235, 29) ;
+    background-color: white;
+    border: 2px solid rgb(53, 235, 29);
+}
+
