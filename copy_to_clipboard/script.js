@@ -1,6 +1,3 @@
-
-
-
 //using javascript
 function myFuntion(){
     var text1=document.getElementById("inputuser");
