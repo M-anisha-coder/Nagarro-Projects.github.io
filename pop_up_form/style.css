@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 #box{
     background-color: #5614B0;
     height: 350px;
@@ -5,9 +10,14 @@
     visibility: hidden;
     border-radius: 5px;
     position: relative;
+   
 }
 body{
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(to right,#000428,#004e92);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #box.show{
     visibility:visible ;
@@ -16,7 +26,7 @@ body{
     font-weight: bold;
 }
 .enter{
-    color: rgb(5, 225, 5)
+    color: rgb(5, 225, 5);
     
 }
 label{
@@ -27,11 +37,19 @@ label{
     margin-left: 93%;
     display: inline-block;
     font-size: x-large;
-    background-color: red;
-    color: white;
+    color:black;
     padding: 5px;
     padding-left:10px ;
     padding-right: 10px;
     border-top-right-radius:5px ;
    
+}
+#icon:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.clicks:hover{
+    color:rgb(5, 225, 5) ;
+    background-color: white;
+    border: 2px solid rgb(5, 225, 5);
 }
