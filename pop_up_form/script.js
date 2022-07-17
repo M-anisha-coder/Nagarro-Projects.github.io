@@ -3,14 +3,15 @@ $(document).ready(function(){
 //validation part
     $('#Usernamevalidation').hide();
     $('#emailvalidation').hide()
-
     var user_error = true;
     var email_error = true;
+
 
     //username validation
     $('#username').keyup(function () {
         username_validation();
     });
+
     //function for username validation
     function username_validation() {
         var username_val = $('#username').val();
@@ -37,6 +38,7 @@ $(document).ready(function(){
         }
 
     }
+
 
     //email validation
     $('#email').keyup(function () {
@@ -80,24 +82,29 @@ $(document).ready(function(){
 
 
 //click button
-
+var count=1;
 $('.clicks').on('click',function(){
-    $('#box').addClass('show')
+    if (count%2!=0){
+        $('#box').addClass('show');
+        count=count+1
+    }
+    else{
+        $('#box').removeClass('show');
+        count=count-1
+    }
+    
 });
-
-
 
 
 $('.submission').on('click',function(){
-$('#box').removeClass('show')
+    $('#box').addClass('show');
+
+
 });
-
-   
-
 
 //xmark function
 $('.xmark').on('click',function(){
-    $('#box').removeClass('show')
+    $('#box').removeClass('show');
 });
 
 });
