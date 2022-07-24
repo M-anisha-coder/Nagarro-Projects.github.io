@@ -2,19 +2,23 @@ const searching = document.getElementById('btn');
 
 function getmovie(){
     var movieName = document.getElementById('search').value;
-    const url =`http://www.omdbapi.com/?i=${movieName}&apikey=6607338b`;
+    const url =`https://www.omdbapi.com/?t=${movieName}&apikey=6607338b`;
     fetch(url)
     .then(res=>res.json())
     .then(data=>{
+        
+    
          document.getElementById('result').innerHTML = `
-         <h1>${data.Title}</h1>
-         <span>${data.Year}</span>
-         <h4> Release date ${data.Released}</h4>
-         <h4>Genre: ${data.Genre}</h4>
+         <img src=${data.Poster} alt="movie_poster" width="200" height="200" style="border-radius:50%; border:2px solid white;">
+         <h1> Title: ${data.Title}</h1>
+         <h5> Release on: ${data.Year}</h5>
          <h5>Language: ${data.Language}</h5>
+         <h4>Genre: ${data.Genre}</h4>
+         <h4> Actors : ${data.Actors}</h4>
+
          <p>${data.Plot}</p>
-         <h5>${data.Ratings}</h5> 
-         `    
+       
+         `    ;
     })
 .catch(err=>{
     alert("movie not found")
