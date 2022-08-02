@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.container{
+    display: flex;
+    height: 740px;
+}
+.left{
+  
+    background-image: url(https://media.istockphoto.com/photos/anonymous-people-avatars-in-virtual-space-picture-id1367515302?b=1&k=20&m=1367515302&s=170667a&w=0&h=HuEzA7NhyU503Xm8gPrQAYAnQYP_VgtoFMyY-cM1KEs=);
+  
+    background-size: cover;
+    width: 53%;
+
+    z-index: 1;
+}
+.left img{
+    z-index: 2;
+    margin-left: 33%;
+    margin-top: 250px;
+}
+
+
+.right{
+    padding: 36px;
+    position: relative;
+    /* background-color: blueviolet;    */
+}
+.text h1{
+    font-size: 64px;
+    margin-top: 50px;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-seriv
+}
+.text h2{
+    font-size: 35px;
+    margin-top: 40px;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-seri
+}
+footer{
+width: 100%;
+ text-align: center;
+ min-height: 72px;
+ margin-top: 10px;
+
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.copy_right {
+    margin-top: 10px;
+    color:grey;
+}
+
+button{
+    width: 320px;
+    height: 44px;
+    outline-style: none;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(207, 217, 222);
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    
+}
+.btn button:hover{
+background-color: rgba(220, 213, 213, 0.582);
+}
+button img{
+    margin-left: 50px;
+}
+.btn{
+    margin-top: 40px;
+}
+.sign-up p{
+    
+    margin-left: 50px;
+}
+.or{
+    margin: 10px 0px 10px 150px;
+    
+}
+.sign{
+   margin-left: 40%;
+   
+}
+.sign-in button{
+    color:rgb(29, 155, 240) ;
+    background-color:  white;
+    font-weight: bold;
+}
+.sign-in button:hover{
+    background-color:rgba(154, 207, 243, 0.297) ;
+}
+.sign-in{
+    margin-top: 60px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.sign-in button{
+    margin-top: 10px;
+    margin-top: 20px;
+}
+.center-align{
+    margin-left: 23%;
+}
+.sign-up button{
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+.sign-up button:hover{
+    background-color:rgba(29, 156, 240, 0.906) ;
+}
+.sign-in h2{
+    font-weight: bold;
+    font-size: large;
+}
+.term p{
+    width: 320px;
+    font-size: 13px;
+    color:grey ;
+}
+.term a{
+    text-decoration: none;
+    color:rgb(29, 155, 240) ;
+}
+
