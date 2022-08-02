@@ -1,0 +1,232 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+
+    background-image: url(https://img3.goodfon.com/wallpaper/nbig/c/61/anime-art-fon-tekstura-pokemon.jpg);
+    align-items: center;
+}
+
+.whole_page {
+   
+    position: absolute;
+    display: block;
+    width: 60%;
+    border-radius: 30px;
+    background-color: white;
+    border: 5px solid bisque;
+    margin: 20px 20% 20px 20%;
+    padding: 20px;
+}
+
+/* introduction */
+
+.intro {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+}
+
+
+
+.friend {
+    position: relative;
+
+}
+
+ h1 {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+  
+}
+
+.story {
+    display: flex;
+
+}
+
+.story p {
+    padding: 20px 30px 10px 40px;
+    height: 300px;
+    overflow: scroll;
+    font-size: large;
+}
+
+.story video {
+    width: 200px;
+    height: 300px;
+}
+
+.character {
+    display: block;
+    padding: 20px;
+   width: 100%; 
+
+}
+
+/* character */
+
+
+/* for making element float left  add "float:left; to the elment you want float left " */
+.char {
+    float: left;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.char button {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+/* videos */
+.video{
+    margin-top: 23px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.episode{
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 10px;
+  
+}
+.episode video{
+    width: 150px;
+    height: 150px;
+}
+.video h1{
+    padding: 3px;
+}
+.form{
+    text-align: center;
+}
+.form input{
+    background-color: rgb(236, 236, 236);
+    outline: none;
+    border: 1px solid rgb(247, 241, 241);
+    border-radius: 5px;
+    padding: 5px;
+    
+
+}
+.form button{
+    background-color: rgba(18, 99, 239, 0.804);
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .char{
+
+    width: 60px;
+    height: 60px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    border: 3px solid blanchedalmond;
+    float: left;
+    margin-left: 20px;
+    justify-content: space-around;
+ 
+}
+ */
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.intro p{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.pics img{
+    justify-content: space-between;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.left-right{
+    display: flex;
+    margin-top: 20px;
+    height: 350px;
+    justify-content: space-around;
+    text-align: center;
+}
+.left-right video{
+    position: relative;
+    border: 5px solid pink;
+    border-radius: 10%;
+}
+.left-right p{
+    padding: 12px;
+}
+hr{
+    margin-top: 20px;
+}
+.friend{
+    position: relative;
+    width:100%;
+    float: left;
+   padding: 3px;
+   justify-content: space-around;
+   
+}
+.fri{
+    
+    margin-left: 30px;
+  
+   
+}
+
+button{
+    color: white;
+    background-color: rgba(0, 126, 253, 0.868);
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: large;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1200){
+    .left-right p{
+        padding: 12px;
+        font-size:small;
+    }
+} */
