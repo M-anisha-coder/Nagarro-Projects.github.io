@@ -1,0 +1,291 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+
+    /* background-image:url(https://cdn5.vectorstock.com/i/1000x1000/35/19/world-map-with-technology-dark-blue-background-vector-6153519.jpg) ; */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/490/645/non_2x/presentation-background-with-blue-plexus-line-dot-and-light-digital-texture-of-bionic-element-or-atom-web-science-website-structure-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.container {
+    padding: 30px;
+    /* background-color: aliceblue; */
+    background-color: rgba(106, 224, 248, 0.018);
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 2px solid springgreen;
+    border-radius: 20px;
+
+}
+
+.container h3 {
+    margin-top: 20px;
+}
+
+nav {
+
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+
+nav a:hover {
+    background-color: black;
+    color: aquamarine;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav img {
+    margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.top {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+span {
+    color: aquamarine;
+}
+
+.social_media {
+    /* background-color: #ffc300; */
+    
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 316px;
+    border: 2px solid aquamarine;
+}
+
+.social_media i {
+    padding: 12px;
+    font-size: 40px;
+    color:aquamarine;
+}
+
+.social_media i:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.intro {
+    text-align: left;
+    margin-left: 20%;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-left: 40%;
+    border: 3px solid aquamarine;
+}
+
+.about{
+    margin-top: 100px;
+}
+.skills{
+    padding: 10px;
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tech , .non-tech{
+    background-color: rgb(10, 190, 10);
+    padding: 20px;
+    border:  2px solid white;
+    border-radius: 20px;
+    width: 40%;
+    height: 400px;
+    color: white;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+}
+
+
+
+.tech_skill , .non-tech_skill{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 20px;
+    width: 90px;
+    height: 60px;
+    
+    padding: 20px;
+   
+}
+
+
+
+
+
+
+.filter {
+    margin-top: 30px;
+}
+
+.list {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.list li {
+    padding: 5px;
+    color: aqua;
+    text-align: left;
+    margin-left: 40%;
+}
+
+.pro {
+    display: block;
+    margin-top: 30px;
+}
+
+
+.links {
+    position: relative;
+    display: inline-block;
+    font-size: large;
+    margin-left: 10px;
+    justify-content: space-between;
+
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(10, 190, 10);
+    border: 2px solid rgb(10, 190, 10);
+}
+
+.links a {
+
+    padding: 20px;
+    text-decoration: none;
+    color: snow;
+}
+
+.links img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.links:hover {
+    color: white;
+    background-color: rgb(10, 190, 10);
+    border: 2px solid white;
+}
+
+.links a:hover {
+    color: blueviolet
+}
+
+.contact{
+    display: flex;
+
+    text-align: justify;
+  
+  
+}
+.get_in_touch, .form{
+   
+    width: 48%;
+    padding: 5px;
+   
+}
+.get_in_touch{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.get_in_touch a{
+    color: white;
+}
+.get_in_touch p{
+    display: inline;
+    margin-left: 120px;
+}
+.get_in_touch .social_media{
+    border:  none;
+    width: 230px;
+}
+.get_in_touch .social_media i{
+    font-size: xx-large;
+    padding: 5px;
+}
+.form{
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 400px;
+}
+.form input{
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: black;
+    
+}
+
+.form  textarea{
+margin-top: 20px;
+border-radius: 15px;
+padding: 10px;
+}
+.form button{
+    margin-top: 20px;
+}
+
+.get{
+    margin-bottom: 30px;
+}
